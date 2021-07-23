@@ -1,3 +1,8 @@
+@media (min-width: 90em) {
+	.light-grey-bg {
+		background: linear-gradient(90deg, rgba(245,245,245,1), rgba(245,245,245,0))!important;
+	}
+}
 @media (max-width: 64em) {
 	.desktop {
 		left: auto;
