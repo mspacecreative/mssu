@@ -26,10 +26,12 @@
 		bodyOverlay.fadeToggle();
 	});
 	
-	menuItem.click(function() {
-		$('.hamburger, body').toggleClass('is-active');
-		bodyOverlay.fadeToggle();
-	});
+	if (window.matchMedia("(max-width: 64em)").matches) {
+		menuItem.click(function() {
+			$('.hamburger, body').toggleClass('is-active');
+			bodyOverlay.fadeToggle();
+		});
+	}
 	
 	closeMenu.on('click touch', function() {
 		$('.hamburger, body').toggleClass('is-active');
