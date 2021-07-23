@@ -1,0 +1,25 @@
+header {
+	padding: 2em 0;
+}
+.logo {
+	max-width: 150px;
+	flex: 0 0 150px;
+}
+header .inner {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: auto;
+	align-items: flex-end;
+	position: relative;
+}
+header .inner::after {
+	position: absolute;
+	left: 50%;
+	top: calc(100% + 2em);
+	height: 1px;
+	content: "";
+	background-color: #999;
+	width: calc(100% - 4em);
+	transform: translate(-50%, 0);
+}

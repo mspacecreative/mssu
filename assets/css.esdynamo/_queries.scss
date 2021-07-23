@@ -1,0 +1,41 @@
+@media (max-width: 64em) {
+	.desktop {
+		left: auto;
+		transition: 0.4s ease-in-out;
+		transform: translate(300px, 0);
+		right: -300px;
+	}
+}
+@media (min-width: 64em) {
+	.wrapper {
+		margin-left: 300px;
+		//padding: 0 2em;
+	}
+	.mobile-nav-container {
+		display: none;
+	}
+	header .inner::after {
+		width: calc(100% - 8em);
+	}
+	header .inner, .inner {
+		padding-left: 4em;
+		padding-right: 4em;
+	}
+}
+@media (max-width: 55em) and (orientation: landscape) {
+	header h1 {
+		font-size: 25px;
+	}
+}
+@media (max-width: 30em) {
+	#contact .col {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.logo {
+		margin-bottom: 2em;
+	}
+	header h1 {
+		font-size: 25px;
+	}
+}

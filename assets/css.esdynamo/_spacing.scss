@@ -1,0 +1,22 @@
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.inner {
+	padding-left: 2em;
+	padding-right: 2em;
+	max-width: 1440px;
+	//margin-right: auto;
+	//margin-left: auto;
+	width: 100%;
+}
+.max-width-800 {
+	max-width: 800px;
+}
+section {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.no-top-padding {
+	padding-top: 0;
+}
