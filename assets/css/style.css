@@ -598,7 +598,7 @@ ul, ol {
 	padding: 0 0 0 20px;
 }
 
-ol li::marker {
+ol li::marker, ul li::marker {
 	color: #F59442;
 }
 
