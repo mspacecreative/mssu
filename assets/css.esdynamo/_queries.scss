@@ -28,6 +28,9 @@
 	}
 }
 @media (max-width: 55em) and (orientation: landscape) {
+	.desktop {
+		background-image: none;
+	}
 	header h1 {
 		font-size: 25px;
 	}
@@ -42,5 +45,8 @@
 	}
 	header h1 {
 		font-size: 25px;
+	}
+	.desktop {
+		background-size: 60%;
 	}
 }

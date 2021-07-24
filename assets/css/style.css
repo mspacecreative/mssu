@@ -1611,6 +1611,10 @@ body .hamburger-inner:after {
 }
 
 @media (max-width: 55em) and (orientation: landscape) {
+	.desktop {
+		background-image: none;
+	}
+	
 	header h1 {
 		font-size: 25px;
 	}
@@ -1628,6 +1632,10 @@ body .hamburger-inner:after {
 	
 	header h1 {
 		font-size: 25px;
+	}
+	
+	.desktop {
+		background-size: 60%;
 	}
 }
 
