@@ -26,8 +26,8 @@
 		bodyOverlay.fadeToggle();
 	});
 	
-	//if (window.matchMedia("(max-width: 64em)").matches) {
-	if ( $('.desktop').css('left') == 'auto' ) {
+	if (window.matchMedia("(max-width: 64em)").matches) {
+	//if ( $('.desktop').css('left') == 'auto' ) {
 		menuItem.click(function() {
 			$('.hamburger, body').toggleClass('is-active');
 			bodyOverlay.fadeToggle();
