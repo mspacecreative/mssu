@@ -1491,6 +1491,10 @@ p, li {
 	background-color: #0A4564;
 	padding: 2em;
 	z-index: 999;
+	background-image: url(../img/textures/mssu-texture.svg);
+	background-position: bottom right;
+	background-size: 75%;
+	background-repeat: no-repeat;
 }
 
 .is-active .desktop {
